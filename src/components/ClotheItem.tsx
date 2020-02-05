@@ -7,7 +7,7 @@ interface IProps {
   isFavorited: boolean;
 }
 
-export const ClotheItem: FunctionComponent<IProps> = ({ id, description, isFavorited }) => {
+const ClotheItem: FunctionComponent<IProps> = ({ id, description, isFavorited }) => {
   const clothesContext = useContext(ClothesContext);
   return (
     <li className='clotheItem'>
@@ -18,3 +18,5 @@ export const ClotheItem: FunctionComponent<IProps> = ({ id, description, isFavor
     </li>
   );
 };
+
+export default ClotheItem

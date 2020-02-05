@@ -1,11 +1,11 @@
 import React, { createContext, useEffect, useState, FunctionComponent } from 'react';
-import ClotheItem from '../models/ClotheItem';
+import IClotheItem from '../models/IClotheItem';
 import ClothesApiClient from '../api/ClothesApiClient';
 
 const clothesApiClient = new ClothesApiClient();
 
 interface IClothesContext {
-  clotheItems: ClotheItem[];
+  clotheItems: IClotheItem[];
   isLoading: boolean;
   toggleFavorite: (id: number) => void;
 }
@@ -13,7 +13,7 @@ interface IClothesContext {
 export const ClothesContext = createContext<IClothesContext>({} as IClothesContext)
 
 const ClothesContextProvider:FunctionComponent = ({children}) => {
-  const [clotheItems, setClotheItems] = useState<ClotheItem[]>([]);
+  const [clotheItems, setClotheItems] = useState<IClotheItem[]>([]);
   const [isLoading, setLoading] = useState(false);
 
   useEffect(() => {

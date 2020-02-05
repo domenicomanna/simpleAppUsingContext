@@ -1,9 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'reactstrap';
 import Layout from './components/Layout';
-import { ClotheItem } from './components/ClotheItem';
 import ClothesContextProvider from './contexts/ClothesContext';
 import ClotheItemsList from './components/ClotheItemsList';
 import { Switch, Route } from 'react-router-dom';

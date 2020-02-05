@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ClothesContext } from '../contexts/ClothesContext';
-import clotheItem from '../models/ClotheItem';
-import { ClotheItem } from './ClotheItem';
+import IClotheItem from '../models/IClotheItem';
+import ClotheItem from './ClotheItem';
 
 const ClotheItemsList = () => {
   const context = useContext(ClothesContext);
@@ -13,7 +13,7 @@ const ClotheItemsList = () => {
   );
 };
 
-function transformClotheItems(clotheItems: clotheItem[]) {
+function transformClotheItems(clotheItems: IClotheItem[]) {
   return clotheItems.map(c => (
     <ClotheItem key={c.id} id={c.id} description={c.description} isFavorited={c.isFavorited} />
   ));

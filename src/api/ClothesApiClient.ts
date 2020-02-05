@@ -1,7 +1,7 @@
-import ClotheItem from '../models/ClotheItem';
+import IClotheItem from '../models/IClotheItem';
 
 export default class ClothesApiClient{
-    getClothes() : ClotheItem[]{
+    getClothes() : IClotheItem[]{
         // fake api call...
         return [
             { id: 1, description: "A lovely t-shirt", isFavorited: false, },
