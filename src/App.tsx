@@ -1,25 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'reactstrap';
+import Layout from './components/Layout';
+import { ClotheItem } from './components/ClotheItem';
+import ClothesContextProvider from './contexts/ClothesContext';
+import ClotheItemsList from './components/ClotheItemsList';
+import { Switch, Route } from 'react-router-dom';
+import FavoritedClotheItemsList from './components/FavoritedClotheItemsList';
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <ClothesContextProvider>
+        <Switch>
+          <Route path="/" component={ClotheItemsList} exact />
+          <Route path="/favorited-clothes" component={FavoritedClotheItemsList}/>
+        </Switch>
+      </ClothesContextProvider>
+    </Layout>
   );
 }
 
