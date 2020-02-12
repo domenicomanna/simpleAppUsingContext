@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/simpleAppUsingContext/static/css/main.20954ede.chunk.css",
-    "main.js": "/simpleAppUsingContext/static/js/main.a470d2db.chunk.js",
-    "main.js.map": "/simpleAppUsingContext/static/js/main.a470d2db.chunk.js.map",
+    "main.js": "/simpleAppUsingContext/static/js/main.c6b058b7.chunk.js",
+    "main.js.map": "/simpleAppUsingContext/static/js/main.c6b058b7.chunk.js.map",
     "runtime-main.js": "/simpleAppUsingContext/static/js/runtime-main.df5b0ad1.js",
     "runtime-main.js.map": "/simpleAppUsingContext/static/js/runtime-main.df5b0ad1.js.map",
-    "static/js/2.3677af24.chunk.js": "/simpleAppUsingContext/static/js/2.3677af24.chunk.js",
-    "static/js/2.3677af24.chunk.js.map": "/simpleAppUsingContext/static/js/2.3677af24.chunk.js.map",
+    "static/js/2.56c65dfd.chunk.js": "/simpleAppUsingContext/static/js/2.56c65dfd.chunk.js",
+    "static/js/2.56c65dfd.chunk.js.map": "/simpleAppUsingContext/static/js/2.56c65dfd.chunk.js.map",
     "index.html": "/simpleAppUsingContext/index.html",
-    "precache-manifest.e68866a8198c17ebe2023e0062a8c36e.js": "/simpleAppUsingContext/precache-manifest.e68866a8198c17ebe2023e0062a8c36e.js",
+    "precache-manifest.1c39fbffbfde8e7c37dcbc4e16ae0695.js": "/simpleAppUsingContext/precache-manifest.1c39fbffbfde8e7c37dcbc4e16ae0695.js",
     "service-worker.js": "/simpleAppUsingContext/service-worker.js",
     "static/css/main.20954ede.chunk.css.map": "/simpleAppUsingContext/static/css/main.20954ede.chunk.css.map",
-    "static/js/2.3677af24.chunk.js.LICENSE.txt": "/simpleAppUsingContext/static/js/2.3677af24.chunk.js.LICENSE.txt"
+    "static/js/2.56c65dfd.chunk.js.LICENSE.txt": "/simpleAppUsingContext/static/js/2.56c65dfd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.df5b0ad1.js",
-    "static/js/2.3677af24.chunk.js",
+    "static/js/2.56c65dfd.chunk.js",
     "static/css/main.20954ede.chunk.css",
-    "static/js/main.a470d2db.chunk.js"
+    "static/js/main.c6b058b7.chunk.js"
   ]
 }
