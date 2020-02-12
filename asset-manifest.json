@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/css/main.20954ede.chunk.css",
+    "main.js": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/js/main.f525f3fc.chunk.js",
+    "main.js.map": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/js/main.f525f3fc.chunk.js.map",
+    "runtime-main.js": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/js/runtime-main.8b94c182.js",
+    "runtime-main.js.map": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/js/runtime-main.8b94c182.js.map",
+    "static/js/2.3677af24.chunk.js": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/js/2.3677af24.chunk.js",
+    "static/js/2.3677af24.chunk.js.map": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/js/2.3677af24.chunk.js.map",
+    "index.html": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/index.html",
+    "precache-manifest.63b2ed1c344503e2bf65d9000b1c8cd0.js": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/precache-manifest.63b2ed1c344503e2bf65d9000b1c8cd0.js",
+    "service-worker.js": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/service-worker.js",
+    "static/css/main.20954ede.chunk.css.map": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/css/main.20954ede.chunk.css.map",
+    "static/js/2.3677af24.chunk.js.LICENSE.txt": "%7Bdomenicomanna%7D.github.io/%7BsimpleAppUsingContext%7D/static/js/2.3677af24.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b94c182.js",
+    "static/js/2.3677af24.chunk.js",
+    "static/css/main.20954ede.chunk.css",
+    "static/js/main.f525f3fc.chunk.js"
+  ]
+}
